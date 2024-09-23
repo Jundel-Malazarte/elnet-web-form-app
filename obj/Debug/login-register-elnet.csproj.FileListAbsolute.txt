@@ -1,0 +1,9 @@
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login-register-elnet.csproj.AssemblyReference.cache
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login_register_elnet.Properties.Resources.resources
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login-register-elnet.csproj.GenerateResource.cache
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login-register-elnet.csproj.CoreCompileInputs.cache
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\bin\Debug\login-register-elnet.dll.config
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\bin\Debug\login-register-elnet.dll
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\bin\Debug\login-register-elnet.pdb
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login-register-elnet.dll
+C:\Users\acer\OneDrive\Documents\programs\elnet\login-register-elnet\login-register-elnet\obj\Debug\login-register-elnet.pdb

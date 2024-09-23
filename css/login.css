@@ -1,0 +1,206 @@
+.body {
+    margin: 0;
+    background-color: #ECEFF1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header {
+    background-color: #81d4fa;
+    width: 112.5%;
+    height: 80px;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: #eceff1;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 10px;
+}
+
+#form-box {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.input-text {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .input-text input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+/* Added styles for Remember Me and Forgot Password */
+.options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.remember-me {
+    display: flex;
+    position: relative;
+    color: #212121;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.forgot-password {
+    font-size: 0.9rem;
+}
+
+    .forgot-password a {
+        color: #64dd17;
+        text-decoration: none;
+    }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+#button-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#button-login #add-user {
+    width: calc(160% - 20px);
+    padding: 10px;
+    background-color: #64dd17;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+    #button-login #add-user:hover {
+        background-color: #64dd17;
+        opacity: 0.8;
+    }
+
+
+/* Remember me slider*/
+/* Switch container */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px; /* Space between switch and label */
+}
+
+    /* Hide default checkbox */
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+/* Slider styling */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+    /* Round slider styling */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+    /* Position of the slider's handle */
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+/* Change background and position when checked */
+input:checked + .slider {
+    background-color: #64dd17;
+}
+
+    input:checked + .slider:before {
+        transform: translateX(20px);
+    }
+
+/* Label styling */
+.remember-me label {
+    color: #212121;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#signup {
+    display: flex;
+    color: #212121;
+    text-decoration: none;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+    #signup a {
+        color: #64dd17;
+        text-decoration: none;
+    }
